@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="vue.js"></script>
+    <link rel="stylesheet" href="c1.css">
+    <div class="nav-bar"></div>
+    <div id="app">
+        <div class="cart">
+            Cart({{ cart.length }})
+        </div>
+
+        <product :premium="premium" @add-to-cart="updateCart"></product>
+    
+    </div>
+    <script src="c1.js" ></script>
+</head>
+<body>
+    
+</body>
+</html>
