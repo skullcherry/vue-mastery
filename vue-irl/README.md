@@ -1,4 +1,4 @@
-# vue-2-irl
+# vue-irl
 
 ## Project setup
 ```
