@@ -7,8 +7,8 @@ import EventShow from "../views/EventShow.vue";
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  mode: 'history',
-  routes:[
+  mode: "history",
+  routes: [
     {
       path: "/",
       name: "event-list",
@@ -24,7 +24,7 @@ const router = new VueRouter({
       path: "/event/create",
       name: "event-create",
       component: EventCreate
-    } 
+    }
     /*{
       path: "/about-us",
       name: "about",
@@ -39,5 +39,3 @@ const router = new VueRouter({
 });
 
 export default router;
-
-
